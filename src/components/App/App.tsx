@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Votes, VoteType } from '../../types/votes.ts';
+import type { Votes, VoteType } from '../../types/votes.ts';
 import CafeInfo from '../CafeInfo/CafeInfo';
 import VoteOptions from '../VoteOptions/VoteOptions';
 import VoteStats from '../VoteStats/VoteStats';
